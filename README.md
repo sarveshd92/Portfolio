@@ -23,7 +23,7 @@ This is my personal portfolio website to showcase my skills, experience, and pro
 ![Projects](assets/img/preview.png)
 
 ## 📫 Contact
-Feel free to connect on [LinkedIn](https://linkedin.com/in/sarvesh-your-id) or via email at `sarvesh@example.com`
+Feel free to connect on [LinkedIn](www.linkedin.com/in/sarvesh-deshpande-618895220) or via email at `dsarvesh92@gmail.com`
 
 ---
 
