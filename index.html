@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <title>Sarvesh Deshpande</title>
+</head>
+<body>
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div><a href="#" class="nav__logo">Sarvesh Deshpande</a></div>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">Projects</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                </ul>
+            </div>
+            <div class="nav__toggle" id="nav-toggle"><i class='bx bx-menu'></i></div>
+        </nav>
+    </header>
+
+    <main class="l-main">
+        <section class="home bd-grid" id="home">
+            <div class="home__data">
+                <h1 class="home__title">Hi,<br>I'm <span class="home__title-color">Sarvesh</span><br>MERN Stack Developer</h1>
+                <a href="#contact" class="button">Contact</a>
+            </div>
+            <div class="home__social">
+                <a href="https://linkedin.com/in/your-profile" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/your-profile" class="home__social-icon"><i class='bx bxl-github'></i></a>
+                <a href="mailto:you@example.com" class="home__social-icon"><i class='bx bx-mail-send'></i></a>
+            </div>
+            <div class="home__img">
+           
+            </div>
+        </section>
+
+        <section class="about section" id="about">
+            <h2 class="section-title">About</h2>
+            <div class="about__container bd-grid">
+                <div class="about__img"><img src="assets/img/Sarvesh-Photo.png" alt=""></div>
+                <div>
+                    <h2 class="about__subtitle">I'm Sarvesh Deshpande</h2>
+                    <p class="about__text">
+                    Software Engineer with 1.8 years of experience at TCS, currently working as a MERN Stack Developer. Skilled in developing scalable full-stack applications using React, Node.js, MongoDB, and real-time technologies. Strong understanding of backend architecture and system design fundamentals, with hands-on experience in building live projects end to end </p>
+                </div>                                    
+            </div>
+        </section>
+
+        <section class="skills section" id="skills">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills__container bd-grid">          
+                <div>
+                    <h2 class="skills__subtitle">Technical Skills</h2>
+                    <div class="skills__data"><span class="skills__name">HTML5</span></div>
+                    <div class="skills__data"><span class="skills__name">CSS3</span></div>
+                    <div class="skills__data"><span class="skills__name">JavaScript</span></div>
+                    <div class="skills__data"><span class="skills__name">React.js</span></div>
+                    <div class="skills__data"><span class="skills__name">Redux</span></div>
+                    <div class="skills__data"><span class="skills__name">Node.js</span></div>
+                    <div class="skills__data"><span class="skills__name">Express.js</span></div>
+                    <div class="skills__data"><span class="skills__name">MongoDB</span></div>
+                    <div class="skills__data"><span class="skills__name">Socket.IO</span></div>
+                    <div class="skills__data"><span class="skills__name">JWT, REST APIs</span></div>
+                </div>
+                <div><img src="assets/img/work3.jpg" alt="" class="skills__img"></div>
+            </div>
+        </section>
+
+        <section class="work section" id="work">
+            <h2 class="section-title">Projects</h2>
+            <div class="work__container bd-grid">
+                <div class="work__img">
+                    <img src="assets/img/preview.png" alt="">
+                    <h3>Job Hunt Portal</h3>
+                    <p>A full-stack job portal with recruiter-user interaction, resume uploads, real-time chat, and session handling. Built with MERN + Socket.IO.</p>
+                    <a href="http://56.228.33.21/home">Live</a> | <a href="https://github.com/sarveshd92/JobConnectX">GitHub</a>
+                </div>
+                <div class="work__img">
+                    <img src="assets/img/Annotation 2025-06-15 213243.png" alt="">
+                    <h3>Collaborative Whiteboard</h3>
+                    <p>Real-time collaborative drawing app supporting multiple users with tools like text, rectangle, undo, and erase. Built with React, Node.js, Socket.IO.</p>
+                     <a href="https://github.com/sarveshd92/Collaborative-Whiteboard-App">GitHub</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact section" id="contact">
+            <h2 class="section-title">Contact</h2>
+            <div class="contact__container bd-grid">
+              <form action="https://formspree.io/f/xzzgkood" method="POST" class="contact__form">
+    <input type="text" name="name" placeholder="Name" class="contact__input" required>
+    <input type="email" name="email" placeholder="Email" class="contact__input" required>
+    <textarea name="message" placeholder="Your Message" cols="0" rows="10" class="contact__input" required></textarea>
+    <input type="hidden" name="_next" value="https://yourdomain.com/thankyou.html">
+    <input type="submit" value="Send" class="contact__button button">
+</form>
+
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p class="footer__title">Sarvesh Deshpande</p>
+        <div class="footer__social">
+            <a href="#" class="footer__icon"><i class='bx bxl-linkedin' ></i></a>
+            <a href="#" class="footer__icon"><i class='bx bxl-github' ></i></a>
+            <a href="#" class="footer__icon"><i class='bx bxl-twitter' ></i></a>
+        </div>
+        <p class="footer__copy">© 2025 Sarvesh. All rights reserved</p>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="assets/js/main.js"></script>
+
+
+
+
+
+    
+</body>
+</html>
+<!-- nternal HR Automation Tool for a Global Client
+
+- Developed interactive dashboard components in React.js and Redux for employee and admin roles.
+- Created secure API routes for leave tracking and performance data using Express.js and MongoDB.
+- Implemented JWT-based authentication with token refresh for session security.
+- Optimized legacy UI performance by converting jQuery widgets to reusable React components.
+- Contributed to API documentation using Postman and collaborated with cross-functional teams in Agile sprints. -->
+
+https://chatgpt.com/share/685072a6-3484-8010-bded-ec1cafdfa0de
